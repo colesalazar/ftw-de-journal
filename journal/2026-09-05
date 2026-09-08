@@ -1,0 +1,30 @@
+# Journal — 2026-09-05
+
+## Today in One Sentence
+Today, I learned the importance of data quality check (DQC) tables at every layer of a pipeline. As part of my work in FHSIS at DOH, I've already been exposed to the importance of DQCs — but here, it's on another dimension: different scale, different tools, same essence of importance.
+
+## What I Learned
+- Tables and dashboards for DQCs, and why they matter at every layer of a pipeline
+- How DQCs in a formal data engineering pipeline compare to the manual/report-based DQCs I already do in FHSIS
+
+## Terms I Am Still Learning
+- Data quality check (DQC) — a checkpoint built into the pipeline itself, rather than a manual review after the fact
+
+## What Confused Me
+I'm still figuring out how to incorporate DQCs into an actual pipeline — specifically, how to set up automated warnings or flags when a data quality guideline isn't met.
+
+## One Small Next Step
+Practice building one simple DQC check (e.g., a null-value check or duplicate check) on a small dataset after class.
+
+## Git Checkpoint
+- [/] I pushed my changes
+- [⚠️] Committed a change on main during our Week 6 Group Assignment!! Lucky though that it did not disrupt anything huhu
+
+## Evidence From Today
+Tried creating a Data Quality Dashboard during the session with Sir Myk. Not perfect yet, but I'll keep trying.
+
+## Reflection
+I still can't quite wrap my head around incorporating DQCs *within* a pipeline. I understand the concept of DQCs on their own, but I still need to visualize what a full pipeline looks like with DQCs built into it end-to-end.
+
+## Mood / Meme
+![alt text](assets/funniest-git-meme-git-push.jpg)
